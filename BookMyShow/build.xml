@@ -2,11 +2,9 @@
 <project default="compile" name="bookmyshow" basedir=".">
 <property name="src" value="src" />
 <property name="build" value="classes" />
-<target name="compile" depends=""
-        description="compile the source">
+<target name="compile" description="compile the source">
     <!-- Compile the java code from ${src} into ${build} -->
-    
-    <mkdir dir="${build}" />
+     <mkdir dir="${build}" />
    
     <javac srcdir="${src}" destdir="${build}">
            <classpath>
