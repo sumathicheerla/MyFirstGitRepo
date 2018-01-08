@@ -1,4 +1,4 @@
 language: java
-ant
+install: ant
 jdk:
    - oraclejdk8
