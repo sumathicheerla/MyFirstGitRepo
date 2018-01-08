@@ -10,8 +10,7 @@ jdk:
 
 deploy:
   provider: releases
-  user: sumathicheerla
-  password: Sumathi@128
+  api_key: 774f6e9874290a40fffea5f260fdc475ce7247eb 
   file: bookmyshow.war
   skip_cleanup: true
   on:
