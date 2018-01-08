@@ -13,7 +13,9 @@ before_deploy:
       - git tag "$(date +'%Y%m%d%H%M%S')-$(git log --format=%h -1)"
 deploy:
   provider: releases
-  api_key: "21425d92ffcf7138ea05b7b31a793edec9eef844"
-  file: "bookmyshow.war"
+  api_key: "GITHUB OAUTH TOKEN"
+  file: "FILE TO UPLOAD"
   skip_cleanup: true
+  on:
+    tags: true
   
