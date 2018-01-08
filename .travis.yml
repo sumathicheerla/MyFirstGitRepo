@@ -1,4 +1,4 @@
 language: java
-install: ant
+install: ant -f BookMyShow/build.xml
 jdk:
    - oraclejdk8
