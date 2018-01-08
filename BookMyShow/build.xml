@@ -12,13 +12,13 @@
      
     <classpath>
     	<path location="WebContent/WEB-INF/lib/servlet-api.jar"/>
-    	<path location="WebContent/WEB-INF/lib/depndentlibs/log4j-1.2.17.jar"/>
-    	<path location="WebContent/WEB-INF/lib/depndentlibs/mysql-connector-java-5.1.45-bin.jar"/>
+    	<path location="WebContent/WEB-INF/lib/log4j-1.2.17.jar"/>
+    	<path location="WebContent/WEB-INF/lib/mysql-connector-java-5.1.45-bin.jar"/>
      </classpath>
        </javac>
   
  
-  <war destfile = "bookmyshow.war" webxml ="web.xml">
+  <war destfile = "bookmyshow.war" webxml ="WebContent/WEB-INF/web.xml">
    <fileset dir = "web">
       <include name = "**/*.*"/>
    </fileset>
