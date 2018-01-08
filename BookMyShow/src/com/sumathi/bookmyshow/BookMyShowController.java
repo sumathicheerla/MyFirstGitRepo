@@ -35,6 +35,7 @@ public class BookMyShowController extends HttpServlet {
 	public void init(ServletConfig config) throws ServletException
 	{
 		System.out.println("git test.........");
+		System.out.println("Git Test2..........");
 		/*String Log4jLocation=config.getInitParameter("log4j-properties-location");
 		ServletContext context=config.getServletContext();
 		if(Log4jLocation==null)
