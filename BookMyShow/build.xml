@@ -19,7 +19,7 @@
   
  
   <war destfile = "bookmyshow.war" webxml ="WebContent/WEB-INF/web.xml">
-   <fileset dir = "web">
+   <fileset dir = "WebContent">
       <include name = "**/*.*"/>
    </fileset>
    
