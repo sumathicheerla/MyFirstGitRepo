@@ -1,3 +1,4 @@
 language: java
+ant
 jdk:
    - oraclejdk8
