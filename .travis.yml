@@ -7,10 +7,7 @@ script:
 
 jdk:
    - oraclejdk8
-before_deploy:
-      - git config --local user.name "sumathicheerla"
-      - git config --local user.email "sumathisanthosh.cheerla@gmail.com"
-      - git tag "$(date +'%Y%m%d%H%M%S')-$(git log --format=%h -1)"
+
 deploy:
   provider: releases
   api_key: "GITHUB OAUTH TOKEN"
