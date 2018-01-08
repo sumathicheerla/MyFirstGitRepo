@@ -17,7 +17,7 @@
      </javac>
         
  </target>       
- <target name="dist" depends="compile" 
+ <target name="dist" depends="compile"> 
   <war destfile = "bookmyshow.war" webxml ="WebContent/WEB-INF/web.xml">
    <fileset dir = "WebContent">
       <include name = "**/*.*"/>
