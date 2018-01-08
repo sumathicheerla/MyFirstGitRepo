@@ -10,8 +10,8 @@ jdk:
 
 deploy:
   provider: releases
-  api_key: "GITHUB OAUTH TOKEN"
-  file: "FILE TO UPLOAD"
+  api_key: 752de41270e727cb000abc0ac9bc1848616c0ca0
+  file: bookmyshow.war
   skip_cleanup: true
   on:
     tags: true
